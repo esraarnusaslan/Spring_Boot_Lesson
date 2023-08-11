@@ -1,0 +1,54 @@
+server:
+  port: 8080
+  error:
+    include-binding-errors: always
+    include-message: always
+    include-stacktrace: never
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springboot_db
+    username: dev_user
+    password: password
+  security:
+    user:
+      name: admin
+      password: password
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+logging:   #logging
+  file:
+    name: log/studentapp.log
+  pattern:
+    file: "%d %-5level [%thread] %logger:%msg%n"
+  level:
+    '[org.springframework.web]': WARN
+    '[org.hibernate]': INFO
+    com:
+      tpe: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ['info','health','loggers','env','beans','threaddump']
+
+  info:
+    env:
+      enabled: true
+
+info:
+  application:
+    name: 'Student Management System Demo'
+    description: 'Demo App for Spring Boot'
+    version: '@project.version@'
+
+

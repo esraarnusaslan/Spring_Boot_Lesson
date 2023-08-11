@@ -1,0 +1,30 @@
+2023-06-22 18:27:13,672 INFO  [restartedMain] com.tpe.SpringBootIntroApplication:Starting SpringBootIntroApplication using Java 19.0.1 on 192.168.1.71 with PID 6153 (/Users/esraarnus/TechPro/Spring/SpringBoot/SpringBoot Ders/SpringBootIntro/target/classes started by esraarnus in /Users/esraarnus/TechPro/Spring/SpringBoot/SpringBoot Ders/SpringBootIntro)
+2023-06-22 18:27:13,679 INFO  [restartedMain] com.tpe.SpringBootIntroApplication:No active profile set, falling back to default profiles: default
+2023-06-22 18:27:13,757 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-22 18:27:13,757 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-22 18:27:14,719 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-22 18:27:14,761 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 36 ms. Found 3 JPA repository interfaces.
+2023-06-22 18:27:15,236 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-06-22 18:27:15,242 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-06-22 18:27:15,243 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-06-22 18:27:15,282 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-06-22 18:27:15,282 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1524 ms
+2023-06-22 18:27:15,482 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-22 18:27:15,526 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-06-22 18:27:15,627 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-22 18:27:15,680 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-06-22 18:27:15,837 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-06-22 18:27:15,848 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-22 18:27:16,397 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-22 18:27:16,403 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 18:27:16,812 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-22 18:27:16,910 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain:Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bf492f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d0d0686, org.springframework.security.web.header.HeaderWriterFilter@7d0b8519, org.springframework.security.web.authentication.logout.LogoutFilter@4afddbbb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4145f3f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67bf4cfb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bca20ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b21a0c6, org.springframework.security.web.session.SessionManagementFilter@361885e7, org.springframework.security.web.access.ExceptionTranslationFilter@5519428d, org.springframework.security.web.access.intercept.AuthorizationFilter@712eaa8a]
+2023-06-22 18:27:17,068 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:Adding welcome page: class path resource [static/index.html]
+2023-06-22 18:27:17,290 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-06-22 18:27:17,300 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 6 endpoint(s) beneath base path '/actuator'
+2023-06-22 18:27:17,340 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-22 18:27:17,357 INFO  [restartedMain] com.tpe.SpringBootIntroApplication:Started SpringBootIntroApplication in 4.189 seconds (JVM running for 4.92)
+2023-06-22 18:27:56,944 INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-22 18:38:19,220 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-22 18:38:19,224 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-06-22 18:38:19,226 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
